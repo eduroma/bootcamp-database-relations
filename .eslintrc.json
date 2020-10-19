@@ -19,7 +19,10 @@
     "ecmaVersion": 2018,
     "sourceType": "module"
   },
-  "plugins": ["@typescript-eslint", "prettier"],
+  "plugins": [
+    "@typescript-eslint",
+    "prettier"
+  ],
   "rules": {
     "@typescript-eslint/no-unused-vars": [
       "error",
@@ -43,6 +46,10 @@
       {
         "ts": "never"
       }
+    ],
+    "object-curly-spacing": [
+      "error",
+      "allways"
     ]
   },
   "settings": {
